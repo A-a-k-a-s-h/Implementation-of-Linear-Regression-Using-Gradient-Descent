@@ -55,7 +55,7 @@ plt.xlabel("iterations")
 plt.ylabel("loss")
 
 ## Output:
-![linear regression using gradient descent](sam.png)
+![linear regression using gradient descent](op.png)
 
 
 ## Result:
