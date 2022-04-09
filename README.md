@@ -8,10 +8,14 @@ To write a program to implement the linear regression using gradient descent.
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
 ## Algorithm
-1. 
-2. 
-3. 
-4. 
+1. Start the program
+2. Import numpy , pandas and matplotlib
+3. Read the file which store the data
+4. Declare x as Hours and y as scores of the dataset
+5. Using loop predict the data and find the MSE,dm,dc,y intercept,slope using the formulae
+6. Find the best fit using the straight line formula
+7. Display the data in graph using matplotlib libraries
+8. Stop the program 
 
 ## Program:
 ```
@@ -53,9 +57,11 @@ plt.title("Study hours vs Scores")
 plt.plot(loss)
 plt.xlabel("iterations")
 plt.ylabel("loss")
-
+```
 ## Output:
-![linear regression using gradient descent](op.png)
+![linear regression using gradient descent](./images/Op1.png)
+
+![linear regression using gradient descent](./images/Op2.png)
 
 
 ## Result:
